@@ -1,0 +1,57 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary border height">
+    <div class="container" >
+        <a class="navbar-brand" href="#">
+            <img src="https://cdn.cmcd1.com/logos/company_logo.png" width="50px" />
+        </a>
+    </div>
+</nav>
+
+
+<div class=" container ">
+    <div class="cont">
+        <!-- <div class="col-md-3"></div> -->
+        <div class="mt-5  col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row text-center">
+                        <div class="col">
+                            <img width="50px" src="https://cdn.cmcd1.com/logos/company_logo.png" />
+                        </div>
+                    </div>
+                    <form class="form-floating" #userPost="ngForm" (ngSubmit)="onSubmit($event)">
+                        <div class="form-floating mb-3">
+                            <input name="username" type="text" id="user" name="username" class="form-control" id="floatingInput"
+                                placeholder="Username">
+                            <label for="floatingInput">Username</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input name="password" type="password" name="password" id="pass" class="form-control" id="floatingPassword"
+                                placeholder="Password">
+                            <label for="floatingPassword">Password</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="checkbox"> Remember Me
+                        </div>
+                        <button id="login" style="width: 100%;" class=" btn-lg btn btn-primary">Submit</button>
+                        <div class="form-floating my-3">
+                            <a href="#">Forget Password?</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="col-md-3"></div> -->
+    </div>
+</div>
+     <footer>
+        <div class="container2">
+            <button>Need Help? Live Chat</button>
+            <div class="footer_link">
+<span class="footer_links">Chalk Digital 2023</span>
+<span class="footer_links">Privacy Policy</span>
+<span class="footer_links">Term & Condition</span>
+<span class="footer_links">About Us</span>
+<span  class="footer_links" >Contact Us</span>                
+            </div>
+        </div>
+    </footer> 
